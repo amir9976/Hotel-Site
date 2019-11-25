@@ -30,10 +30,26 @@
   cursor: pointer;
 }
 
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
 .btn:hover {
   background:  #f7c08a;
   color: #333;
 }
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
 
 /* Main Styling */
 html, body {
@@ -102,7 +118,7 @@ p {
   background-image: url('../img/showcase.jpg');
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 500px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -126,4 +142,32 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.5em;
+}
+
+/* HOME-INFO */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background-image: url('../img/photo-1.jpg');
+  background-size: cover;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home-info .info-content {
+  float: right;
+  text-align: center;
+  padding: 50px 30px;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
